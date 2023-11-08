@@ -1,0 +1,14 @@
+body {
+  background-color: #16161a;
+  color: white;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  width: 150px;
+  border: 1px solid white;
+  border-radius: 15px;
+}
