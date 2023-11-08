@@ -12,3 +12,19 @@ body {
   border: 1px solid white;
   border-radius: 15px;
 }
+
+.standard {
+  border: 1px solid #72757e;
+}
+
+.m3 {
+  border: 1px solid #8bd3dd;
+}
+
+.m5 {
+  border: 1px solid #c3f0ca;
+}
+
+.m3-5 {
+  border: 1px solid #2cb67d;
+}
