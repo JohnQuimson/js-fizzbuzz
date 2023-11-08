@@ -16,11 +16,7 @@ h1 {
   justify-content: center;
   height: 150px;
   width: 150px;
-  border: 1px solid white;
   border-radius: 15px;
-}
-
-.standard {
   background-color: #72757e;
 }
 
