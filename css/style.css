@@ -1,6 +1,13 @@
 body {
   background-color: #16161a;
   color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 700;
 }
 
 .box {
@@ -14,17 +21,20 @@ body {
 }
 
 .standard {
-  border: 1px solid #72757e;
+  background-color: #72757e;
 }
 
 .m3 {
-  border: 1px solid #8bd3dd;
+  background-color: #8bd3dd;
+  color: white;
 }
 
 .m5 {
-  border: 1px solid #c3f0ca;
+  background-color: #c3f0ca;
+  color: #16161a;
 }
 
 .m3-5 {
-  border: 1px solid #2cb67d;
+  background-color: #2cb67d;
+  color: white;
 }

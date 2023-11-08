@@ -9,13 +9,13 @@ for (let i = 1; i < 101; i++) {
   //Condizioni
   if (i % 3 === 0 && i % 5 === 0) {
     console.log('FizzBuzz');
-    elementLi = `<li class="box">FizzBuzz</li>`;
+    elementLi = `<li class="box m3-5">FizzBuzz</li>`;
   } else if (i % 3 === 0) {
     console.log('Fizz');
-    elementLi = `<li class="box">Fizz</li>`;
+    elementLi = `<li class="box m3">Fizz</li>`;
   } else if (i % 5 === 0) {
     console.log('Buzz');
-    elementLi = `<li class="box">Buzz</li>`;
+    elementLi = `<li class="box m5">Buzz</li>`;
   }
   elementUl.innerHTML += elementLi;
 }
