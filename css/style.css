@@ -17,6 +17,9 @@ h1 {
   height: 150px;
   width: 150px;
   border-radius: 15px;
+}
+
+.standard {
   background-color: #72757e;
 }
 

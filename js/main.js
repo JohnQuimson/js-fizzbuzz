@@ -1,21 +1,37 @@
 'use strict';
 
-const elementUl = document.querySelector('ul.lista');
+const elementUl = document.querySelector('.lista');
 
-for (let i = 1; i < 101; i++) {
+for (let i = 1; i <= 100; i++) {
   //Aggiungo elementi li in elementUl
-  let elementLi = `<li class = "box">${i}</li>`;
+  const elementLi = document.createElement('li');
+  let value = i;
 
   //Condizioni
   if (i % 3 === 0 && i % 5 === 0) {
     console.log('FizzBuzz');
-    elementLi = `<li class="box m3-5">FizzBuzz</li>`;
+    value = 'FizzBuzz';
+    elementLi.classList.add('box');
+    elementLi.classList.add('m3-5');
   } else if (i % 3 === 0) {
     console.log('Fizz');
-    elementLi = `<li class="box m3">Fizz</li>`;
+    value = 'Fizz';
+    elementLi.classList.add('box');
+    elementLi.classList.add('m3');
   } else if (i % 5 === 0) {
     console.log('Buzz');
-    elementLi = `<li class="box m5">Buzz</li>`;
+    value = 'Buzz';
+    elementLi.classList.add('box');
+    elementLi.classList.add('m5');
+  } else {
+    console.log(i);
+    elementLi.classList.add('box');
+    elementLi.classList.add('standard');
   }
-  elementUl.innerHTML += elementLi;
+
+  //Aggiungo value ai li
+  elementLi.append(value);
+
+  //Aggiungo elementLi a elementUl
+  elementUl.append(elementLi);
 }
